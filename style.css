@@ -35,9 +35,10 @@ body {
 }
 
 .menu {
-	position: fixed;
-  width: 100%;
-  z-index: 1;
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
 	grid-column: 3 / 5;
 	/* margin-top: 2rem; */
 	margin-bottom: 2rem;
@@ -323,4 +324,3 @@ body {
 	opacity: 1;
 	transform: translate3d(0, 0, 0);
 }
-
