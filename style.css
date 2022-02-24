@@ -35,6 +35,9 @@ body {
 }
 
 .menu {
+	position: fixed;
+  width: 100%;
+  z-index: 1;
 	grid-column: 3 / 5;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -282,12 +285,12 @@ body {
 }
 
 .js-accordion dt::after {
-	content: '⮟';
+	content: '▼';
 	margin-left: 10px;
 	font-size: 12px;
 }
 .js-accordion dt.ativo::after {
-	content: '⮝';
+	content: '▲';
 }
 
 .js-accordion dd.ativo {
